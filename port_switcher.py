@@ -1,5 +1,5 @@
 import miniupnpc
-from sensitivedata import SERVER_NAMES, PORTS
+from config import SERVER_NAMES, PORTS
 u = miniupnpc.UPnP()
 u.discoverdelay=200;u.discover();u.selectigd()
 print("This script only affects WAN ports. Local devices will not be affected.")
