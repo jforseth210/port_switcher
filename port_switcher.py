@@ -21,7 +21,7 @@ for idx, server in enumerate(SERVER_NAMES.values()):
     print('[{}] {} ({})'.format(idx,server[1],server[0]))
 server=input('Which server would you like to switch to? [0-{}]:'.format(len(SERVER_NAMES)-1))
 for port in PORTS.keys():
-    print(port)
+    print("{}:{}".format(port,PORTS[port]))
     try:
         u.deleteportmapping(port,'TCP')
     except:
