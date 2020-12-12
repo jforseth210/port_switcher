@@ -1,4 +1,7 @@
 # Port Switcher
+
+THIS DOESN'T WORK. DON'T USE IT.
+
 ## Intro
 This is a simple python script to quickly switch between two servers using uPnP. 
 Most of this work isn't my own. This script primarily uses Silas S. Brown's (UPnP router command-line control scripts)[https://ssb22.user.srcf.net/setup/upnp.html] and (Miniupnc)[http://miniupnp.tuxfamily.org/]
