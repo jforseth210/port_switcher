@@ -1,6 +1,6 @@
 # Port Switcher
 
-THIS DOESN'T WORK. DON'T USE IT.
+THIS (PROBABLY) DOESN'T WORK. DON'T USE IT.
 
 ## Intro
 This is a simple python script to quickly switch between two servers using uPnP. 
